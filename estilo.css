@@ -22,10 +22,7 @@ header > ul > li> a, li {
     padding-right: 10px;
     padding-left: 10px;
 }
-header > h1 {
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-}
+
 body {
     background-image: url(drone.jpg);
     background-repeat: no-repeat;
