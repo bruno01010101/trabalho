@@ -3,6 +3,13 @@
     padding: 0px;
 }
 
+body {
+    background-image: url(drone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: yellow;
+}
+
 header {
     background-color: green;
     padding: 10px 0px 10px 0px;
@@ -21,22 +28,15 @@ header > ul > li> a, li {
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
+    font-weight: bold;
+    
 }
 
-body {
-    background-image: url(drone.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 main {
     background-color: aqua;
     width: 100vw;
     margin-top: 10px;  
 }
-img {
-    width: 100%;
-}
-p {
-    padding: 10px 0 0 5px;
-    text-align: center;
-}
+
+
+
