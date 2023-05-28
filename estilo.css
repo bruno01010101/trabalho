@@ -10,6 +10,11 @@ header {
     color: white;
 }
 
+header > img {
+    width: 100px;
+    height:100px;
+}
+
 header > ul > li> a, li {
     text-decoration: none;
     color: white;
