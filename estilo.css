@@ -10,15 +10,18 @@ body {
 }
 
 header {
+    margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.185);
     padding: 10px 0px 10px 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 header > h1 {
+    font-size: 2.3em;
     display: inline-block;
     text-align: left;
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
+    margin-left: 10px;
 }
 header > img {
     width: 100px;
@@ -36,4 +39,63 @@ header > ul > li> a, li {
     padding-right: 10px;
     padding-left: 10px;
     display: inline-block;
+}
+
+main {
+    margin-left: 30px;
+    padding: 10px 0px 0px 0px;
+    max-width: 1000px;
+    margin-top: 70px;
+}
+
+main > h2 {
+    margin: 10px;
+    font-size: 1.8em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+p.pequeno {
+    font-size: 1.2em;
+    color: rgb(139, 138, 138);
+}
+#segundo {
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+div#inscreva-se {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+    max-width: 600px;
+    border-radius: 15px;
+    height: 100px;
+}
+div#broxa {
+    display: block;
+}
+
+a#botao {
+    font-size: 1.4em;
+    display: block;
+    margin: -40px 2px 2px 400px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 30px;
+    width: 120px;
+    background-color: rgb(11, 133, 11);
+    border-radius: 7px;
+}
+a#botao:hover {
+    background-color: rgb(104, 250, 104);
+    color: black;
+}
+div#inscreva-se >div#broxa > h2 {
+    font-weight: bold;
+    color: rgb(100, 99, 99);
+    font-size: 1.9em;
 }
