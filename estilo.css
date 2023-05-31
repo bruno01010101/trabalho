@@ -59,7 +59,7 @@ p {
     font-weight: bold;
 }
 p.pequeno {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: rgb(139, 138, 138);
 }
 #segundo {
@@ -69,9 +69,9 @@ p.pequeno {
 
 div#inscreva-se {
     margin-top: 20px;
-    padding: 15px;
+    padding: 15px 15px 10px 15px;
     background-color: whitesmoke;
-    max-width: 600px;
+    max-width: 580px;
     border-radius: 15px;
     height: 100px;
 }
@@ -80,9 +80,9 @@ div#broxa {
 }
 
 a#botao {
-    font-size: 1.4em;
+    font-size: 1.3em;
     display: block;
-    margin: -40px 2px 2px 400px;
+    margin: -48px 2px 2px 400px;
     text-decoration: none;
     color: white;
     padding: 5px 5px 5px 30px;
@@ -91,11 +91,11 @@ a#botao {
     border-radius: 7px;
 }
 a#botao:hover {
-    background-color: rgb(104, 250, 104);
+    background-color: rgb(104, 250, 104);   
     color: black;
 }
 div#inscreva-se >div#broxa > h2 {
     font-weight: bold;
     color: rgb(100, 99, 99);
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
