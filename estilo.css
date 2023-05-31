@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(drone.jpg);
+    background-image: url(imagens/drone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -98,4 +98,14 @@ div#inscreva-se >div#broxa > h2 {
     font-weight: bold;
     color: rgb(100, 99, 99);
     font-size: 1.7em;
+}
+
+footer {
+    display: block;
+    background-color: rgb(3, 66, 3);
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
 }
