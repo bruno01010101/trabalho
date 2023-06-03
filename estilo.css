@@ -2,9 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 p.pequeno {
@@ -13,7 +14,7 @@ p.pequeno {
 }
 
 #segundo {
-    font-size: 2.4em;
+    font-size: 2.3em;
     font-weight: bolder;
 }
 
@@ -40,6 +41,13 @@ div#ultimo > p {
         background-image: url(imagens/pexels-hicret-16954026.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    div#primeiro {
+        background-color: rgba(61, 57, 57, 0.637);
+        padding: 7px;
+        border-radius: 5px;
+        color: white;
+        max-width: 320px;
     }
     ul#sumiu ,p.pequeno{
         display: none;
@@ -89,7 +97,15 @@ div#ultimo > p {
         background-size: cover;
         background-position: center;
     }
-    
+
+    div#primeiro {
+        background-color: rgba(61, 57, 57, 0.637);
+        padding: 7px;
+        border-radius: 5px;
+        color: white;
+        max-width: 400px;
+    }
+
     header {
         margin-bottom: 10px;
         background-color: rgba(0, 0, 0, 0.185);
