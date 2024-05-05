@@ -170,15 +170,6 @@ div#ultimo > p {
         background-color: rgb(104, 250, 104);   
         color: black;
     }
-    
-    footer {
-        display: block;
-        background-color: rgb(3, 66, 3);
-        color: white;
-        text-align: center;
-        font-size: 0.7em;
-        padding: 5px;
-    }
     div#ultimo {
         max-width: 650px;
         margin: 10px 0px 5px 3px ;
